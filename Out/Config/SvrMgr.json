@@ -1,0 +1,13 @@
+﻿[
+	{
+		"SvrType":"OtHttpJsonSvr",
+		"NetAddr":"http://localhost:8090/",
+		"RootDir":null,
+		"IsAutoRun":false,
+		"Tag":null,
+		"Id":"OtJsonSvr",
+		"Name":"原点JSON服务器",
+		"Note":null,
+		"SortKey":"20160126.085627.662"
+	}
+]

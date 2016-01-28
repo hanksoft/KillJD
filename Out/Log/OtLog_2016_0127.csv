@@ -1,0 +1,4 @@
+"时间","令牌","级别","来源","类型","方法","消息","应用名称","执行类型","执行方法","执行目录"
+"2016-01-27 09:37:50:832","0","错误","Hank.ComLib.dll","公共组件","XLogErr","未将对象引用设置到对象的实例。,未将对象引用设置到对象的实例。","京东价格追踪软件","Hank.ComLib.OtCom","XLogErr","C:\Hansy\SRC\Hanke\CutPrice\KillPrice\Out"
+"2016-01-27 16:38:13:059","0","错误","Hank.ComLib.dll","公共组件","XLogErr","未将对象引用设置到对象的实例。,未将对象引用设置到对象的实例。","京东价格追踪软件","Hank.ComLib.OtCom","XLogErr","C:\Hansy\SRC\Hanke\CutPrice\KillPrice\Out"
+"2016-01-27 17:11:42:457","0","错误","Hank.ComLib.dll","公共组件","XLogErr","未将对象引用设置到对象的实例。,未将对象引用设置到对象的实例。","京东价格追踪软件","Hank.ComLib.OtCom","XLogErr","C:\Hansy\SRC\Hanke\CutPrice\KillPrice\Out"

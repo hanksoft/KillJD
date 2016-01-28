@@ -1,0 +1,71 @@
+{
+	"stock" : {
+		"Ext" : "nationallySetWare:0",
+		"StockState" : 33,
+		"realSkuId" : 1108248,
+		"pr" : {
+			"resultCode" : 1,
+			"promiseResult" : "11:00前完成下单,预计<b>今天(09月30日)</b>送达"
+		},
+		"code" : 1,
+		"skuState" : 1,
+		"PopType" : 0,
+		"channel" : 1,
+		"ir" : [{
+				"iconSrc" : "211限时达",
+				"iconTip" : "上午下单，下午送达",
+				"helpLink" : "http://help.jd.com/user/issue/103-983.html",
+				"iconCode" : "sendpay_211",
+				"resultCode" : 1,
+				"showName" : "211限时达",
+				"picUrl" : "http://misc.360buyimg.com/product/item/1.0.1/widget/promiseIcon/i/i-support-time1.png"
+			}, {
+				"iconSrc" : "自提",
+				"iconTip" : "自提免运费，支持自提点，自助提货柜，移动自提车等自提服务。",
+				"helpLink" : "http://help.jd.com/user/issue/103-983.html",
+				"iconCode" : "special_ziti",
+				"resultCode" : 1,
+				"showName" : "自提",
+				"picUrl" : "http://misc.360buyimg.com/product/item/1.0.1/widget/promiseIcon/i/i-support-ziti.png"
+			}
+		],
+		"StockStateName" : "现货",
+		"self_D" : {
+			"vid" : 1000001624,
+			"df" : null,
+			"cg" : "9855:9857:9909",
+			"deliver" : "九牧卫浴自营旗舰店",
+			"id" : 1000001624,
+			"type" : 0,
+			"vender" : "九牧卫浴自营旗舰店",
+			"linkphone" : "",
+			"url" : "http://mall.jd.com/index-1000001624.html",
+			"po" : "true"
+		},
+		"vd" : null,
+		"eir" : [{
+				"iconSrc" : "79免运费",
+				"iconTip" : "钻石会员自营订单满59元（含）免运费， 其他会员自营订单满79元（含）免运费， 不足金额订单收取5元/单运费（偏远地区额外收取10元/件）。",
+				"helpLink" : "http://help.jd.com/user/issue/103-983.html",
+				"iconCode" : "free_delivery",
+				"resultCode" : 1,
+				"showName" : "79免运费",
+				"picUrl" : "http://misc.360buyimg.com/product/item/1.0.1/widget/promiseIcon/i/i-support-free.png"
+			}, {
+				"iconSrc" : "货到付款",
+				"iconTip" : "支持送货上门后再收款，支持现金、POS机刷卡等方式",
+				"helpLink" : "http://help.jd.com/user/issue/103-983.html",
+				"iconCode" : "payment_cod",
+				"resultCode" : 1,
+				"showName" : "货到付款",
+				"picUrl" : "http://misc.360buyimg.com/product/item/1.0.1/widget/promiseIcon/i/i-support-hdfk.png"
+			}
+		],
+		"rfg" : 0,
+		"ArrivalDate" : "",
+		"Dti" : null,
+		"IsPurchase" : false,
+		"rn" : -1,
+		"Dc" : null
+	}
+}

@@ -1,0 +1,23 @@
+﻿//获取区域
+http://d.jd.com/hotwords/get?Position=A-electronic-011
+//北京朝阳区三环以内
+http://d.jd.com/area/get?fid=72&callback=getAreaListcallback
+//四川成都
+http://d.jd.com/area/get?fid=1930&callback=getAreaListcallback
+
+getAreaListcallback([
+	{"name":"\u4e09\u73af\u4ee5\u5185","id":2848},
+	{"name":"\u4e09\u73af\u5230\u56db\u73af\u4e4b\u95f4","id":2849},
+	{"name":"\u56db\u73af\u5230\u4e94\u73af\u4e4b\u95f4","id":2850},
+	{"name":"\u4e94\u73af\u5230\u516d\u73af\u4e4b\u95f4","id":2851},
+	{"name":"\u516d\u73af\u4ee5\u5916","id":2852},
+	{"name":"\u897f\u4e09\u65d7","id":4134},
+	{"name":"\u897f\u4e8c\u65d7","id":4209}
+])
+
+//获取价格
+http://pm.3.cn/prices/pcpmgets?callback=jQuery3820568&skuids=202459&origin=2&source=1&area=1_2800_4134_0&_=1451370905656
+
+jQuery5068505([{"id":"202459","pcp":"69.00","p":"59.00","m":"121.00"}]);
+
+cnp([{"id":"J_202459","p":"69.00","m":"121.00"}]);

@@ -1,0 +1,31 @@
+{
+	"stock" : {
+		"Ext" : "",
+		"StockState" : 34,
+		"realSkuId" : 1711116,
+		"code" : 1,
+		"skuState" : 1,
+		"PopType" : 0,
+		"channel" : 1,
+		"StockStateName" : "无货",
+		"self_D" : {
+			"vid" : 1000001542,
+			"df" : null,
+			"cg" : "9855:9857:9909",
+			"deliver" : "莱尔诗丹自营旗舰店",
+			"id" : 1000001542,
+			"type" : 0,
+			"vender" : "莱尔诗丹自营旗舰店",
+			"linkphone" : "",
+			"url" : "http://mall.jd.com/index-1000001542.html",
+			"po" : "true"
+		},
+		"vd" : null,
+		"rfg" : 0,
+		"ArrivalDate" : "",
+		"Dti" : null,
+		"IsPurchase" : true,
+		"rn" : -1,
+		"Dc" : null
+	}
+}

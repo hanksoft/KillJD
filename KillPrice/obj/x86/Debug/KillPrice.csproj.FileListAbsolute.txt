@@ -1,0 +1,15 @@
+C:\Work\CutPrice\KillPrice\KillPrice\bin\x86\Debug\KillPrice.exe.config
+C:\Work\CutPrice\KillPrice\Out\KillPrice.exe
+C:\Work\CutPrice\KillPrice\Out\KillPrice.exe.config
+C:\Work\CutPrice\KillPrice\KillPrice\obj\x86\Debug\Interop.Shell32.dll
+C:\Work\CutPrice\KillPrice\KillPrice\obj\x86\Debug\KillPrice.csproj.ResolveComReference.cache
+C:\Work\CutPrice\KillPrice\KillPrice\obj\x86\Debug\KillPrice.FrmInportWare.resources
+C:\Work\CutPrice\KillPrice\KillPrice\obj\x86\Debug\KillPrice.FrmMain.resources
+C:\Work\CutPrice\KillPrice\KillPrice\obj\x86\Debug\KillPrice.FrmResInfo.resources
+C:\Work\CutPrice\KillPrice\KillPrice\obj\x86\Debug\KillPrice.Properties.Resources.resources
+C:\Work\CutPrice\KillPrice\KillPrice\obj\x86\Debug\KillPrice.csproj.GenerateResource.Cache
+C:\Work\CutPrice\KillPrice\KillPrice\obj\x86\Debug\KillPrice.exe.licenses
+C:\Work\CutPrice\KillPrice\KillPrice\obj\x86\Debug\KillPrice.exe
+C:\Work\CutPrice\KillPrice\KillPrice\obj\x86\Debug\KillPrice.pdb
+C:\Work\CutPrice\KillPrice\Out\KillPrice.pdb
+C:\Work\CutPrice\KillPrice\KillPrice\obj\x86\Debug\KillPrice.csprojResolveAssemblyReference.cache

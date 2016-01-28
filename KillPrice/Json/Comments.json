@@ -1,0 +1,27 @@
+{
+	"CommentsCount" : [{
+			"SkuId" : 1108248,
+			"ProductId" : 1108248,
+			"Score1Count" : 4,
+			"Score2Count" : 4,
+			"Score3Count" : 18,
+			"Score4Count" : 88,
+			"Score5Count" : 1226,
+			"ShowCount" : 72,
+			"CommentCount" : 1340,
+			"AverageScore" : 5,
+			"GoodCount" : 1314,
+			"GoodRate" : 0.982,
+			"GoodRateShow" : 98,
+			"GoodRateStyle" : 148,
+			"GeneralCount" : 22,
+			"GeneralRate" : 0.016,
+			"GeneralRateShow" : 2,
+			"GeneralRateStyle" : 2,
+			"PoorCount" : 4,
+			"PoorRate" : 0.0020,
+			"PoorRateShow" : 0,
+			"PoorRateStyle" : 0
+		}
+	]
+}
