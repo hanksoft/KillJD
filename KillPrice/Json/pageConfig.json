@@ -1,0 +1,430 @@
+{
+	compatible: true,
+	product: {
+		skuid: 1012530484,
+		name: '\u8de8\u9014\u7537\u978b\u0020\u65b0\u6b3e\u4f11\u95f2\u978b\u6237\u5916\u7537\u978b\u5f92\u6b65\u767b\u5c71\u4f11\u95f2\u7537\u978b\u0020\u0045\u0053\u002d\u0031\u0030\u0030\u0039\u0035\u0037\u0020\u5de7\u514b\u529b\u8272\u0020\u0020\u0034\u0031',
+		skuidkey: 'F7057726EEDA872B4FF09D080FB941D5',
+		href: '//item.jd.com/1012530484.html',
+		src: 'jfs/t2068/211/2204402491/208701/ae98a7ca/56a5dae5N22ba44a3.jpg',
+		cat: [11729,11730,6908],
+		brand: 24138,
+		pType: 2,
+		isClosePCShow: false,
+		venderId: 28836,
+		shopId: '28099',
+		commentVersion: '2862',
+		specialAttrs: ["is7ToReturn-1"],
+		recommend: [0,1,2,3,4,5,6,7,8,9],
+		easyBuyUrl: "http://easybuy.jd.com/skuDetail/newSubmitEasybuyOrder.action",
+		qualityLife: "//c.3.cn/qualification/info?skuId=1012530484&pid=1003337829&catId=6908",
+		colorSize: [{
+			"Color": "巧克力色",
+			"SkuId": 1012530481,
+			"Size": "39"
+		},
+		{
+			"Color": "巧克力色",
+			"SkuId": 1012530482,
+			"Size": "40"
+		},
+		{
+			"Color": "巧克力色",
+			"SkuId": 1012530484,
+			"Size": "41"
+		},
+		{
+			"Color": "巧克力色",
+			"SkuId": 1012530485,
+			"Size": "42"
+		},
+		{
+			"Color": "巧克力色",
+			"SkuId": 1012530487,
+			"Size": "43"
+		},
+		{
+			"Color": "巧克力色",
+			"SkuId": 1012530488,
+			"Size": "44"
+		},
+		{
+			"Color": "黑色",
+			"SkuId": 1012530490,
+			"Size": "39"
+		},
+		{
+			"Color": "黑色",
+			"SkuId": 1012530491,
+			"Size": "40"
+		},
+		{
+			"Color": "黑色",
+			"SkuId": 1012530493,
+			"Size": "41"
+		},
+		{
+			"Color": "黑色",
+			"SkuId": 1012530494,
+			"Size": "42"
+		},
+		{
+			"Color": "黑色",
+			"SkuId": 1012530496,
+			"Size": "43"
+		},
+		{
+			"Color": "黑色",
+			"SkuId": 1012530497,
+			"Size": "44"
+		},
+		{
+			"Color": "米色",
+			"SkuId": 1012530499,
+			"Size": "39"
+		},
+		{
+			"Color": "米色",
+			"SkuId": 1012530500,
+			"Size": "40"
+		},
+		{
+			"Color": "米色",
+			"SkuId": 1012530502,
+			"Size": "41"
+		},
+		{
+			"Color": "米色",
+			"SkuId": 1012530503,
+			"Size": "42"
+		},
+		{
+			"Color": "米色",
+			"SkuId": 1012530505,
+			"Size": "43"
+		},
+		{
+			"Color": "米色",
+			"SkuId": 1012530506,
+			"Size": "44"
+		},
+		{
+			"Color": "巧克力色",
+			"SkuId": 1063527624,
+			"Size": "45"
+		},
+		{
+			"Color": "黑色",
+			"SkuId": 1063527625,
+			"Size": "45"
+		},
+		{
+			"Color": "米色",
+			"SkuId": 1063527626,
+			"Size": "45"
+		},
+		{
+			"Color": "红棕色",
+			"SkuId": 1075082182,
+			"Size": "39"
+		},
+		{
+			"Color": "红棕色",
+			"SkuId": 1075082183,
+			"Size": "40"
+		},
+		{
+			"Color": "红棕色",
+			"SkuId": 1075082184,
+			"Size": "41"
+		},
+		{
+			"Color": "红棕色",
+			"SkuId": 1075082185,
+			"Size": "42"
+		},
+		{
+			"Color": "红棕色",
+			"SkuId": 1075082186,
+			"Size": "43"
+		},
+		{
+			"Color": "红棕色",
+			"SkuId": 1075082187,
+			"Size": "44"
+		},
+		{
+			"Color": "红棕色",
+			"SkuId": 1075082188,
+			"Size": "45"
+		},
+		{
+			"Color": "驼色头层皮",
+			"SkuId": 1245864946,
+			"Size": "40"
+		},
+		{
+			"Color": "驼色头层皮",
+			"SkuId": 1245864947,
+			"Size": "41"
+		},
+		{
+			"Color": "驼色头层皮",
+			"SkuId": 1245864948,
+			"Size": "43"
+		},
+		{
+			"Color": "驼色头层皮",
+			"SkuId": 1245864949,
+			"Size": "45"
+		},
+		{
+			"Color": "驼色头层皮",
+			"SkuId": 1245864950,
+			"Size": "44"
+		},
+		{
+			"Color": "驼色头层皮",
+			"SkuId": 1245864951,
+			"Size": "39"
+		},
+		{
+			"Color": "驼色头层皮",
+			"SkuId": 1245864952,
+			"Size": "42"
+		},
+		{
+			"Color": "黑色头层皮",
+			"SkuId": 1612072820,
+			"Size": "44"
+		},
+		{
+			"Color": "黑色头层皮",
+			"SkuId": 1612072816,
+			"Size": "40"
+		},
+		{
+			"Color": "黑色头层皮",
+			"SkuId": 1612072818,
+			"Size": "43"
+		},
+		{
+			"Color": "棕色头层皮",
+			"SkuId": 1612072812,
+			"Size": "45"
+		},
+		{
+			"Color": "黑色头层皮",
+			"SkuId": 1612072817,
+			"Size": "41"
+		},
+		{
+			"Color": "棕色头层皮",
+			"SkuId": 1612072815,
+			"Size": "42"
+		},
+		{
+			"Color": "黑色头层皮",
+			"SkuId": 1612072819,
+			"Size": "45"
+		},
+		{
+			"Color": "黑色头层皮",
+			"SkuId": 1612072822,
+			"Size": "42"
+		},
+		{
+			"Color": "棕色头层皮",
+			"SkuId": 1612072811,
+			"Size": "43"
+		},
+		{
+			"Color": "棕色头层皮",
+			"SkuId": 1612072813,
+			"Size": "44"
+		},
+		{
+			"Color": "棕色头层皮",
+			"SkuId": 1612072814,
+			"Size": "39"
+		},
+		{
+			"Color": "棕色头层皮",
+			"SkuId": 1612072809,
+			"Size": "40"
+		},
+		{
+			"Color": "黑色头层皮",
+			"SkuId": 1612072821,
+			"Size": "39"
+		},
+		{
+			"Color": "棕色头层皮",
+			"SkuId": 1612072810,
+			"Size": "41"
+		},
+		{
+			"Color": "A7-深棕",
+			"SkuId": 10079256068,
+			"Size": "39"
+		},
+		{
+			"Color": "A7-深棕",
+			"SkuId": 10079256069,
+			"Size": "41"
+		},
+		{
+			"Color": "A7-深棕",
+			"SkuId": 10079256073,
+			"Size": "40"
+		},
+		{
+			"Color": "A7-深棕",
+			"SkuId": 10079256072,
+			"Size": "42"
+		},
+		{
+			"Color": "A7-深棕",
+			"SkuId": 10079256067,
+			"Size": "43"
+		},
+		{
+			"Color": "A7-深棕",
+			"SkuId": 10079256070,
+			"Size": "44"
+		},
+		{
+			"Color": "A7-深棕",
+			"SkuId": 10079256071,
+			"Size": "45"
+		},
+		{
+			"Color": "巧克力色",
+			"SkuId": 10121543772,
+			"Size": "47"
+		},
+		{
+			"Color": "棕色头层皮",
+			"SkuId": 10121543769,
+			"Size": "47"
+		},
+		{
+			"Color": "红棕色",
+			"SkuId": 10121543788,
+			"Size": "48"
+		},
+		{
+			"Color": "A7-深棕",
+			"SkuId": 10121543780,
+			"Size": "46"
+		},
+		{
+			"Color": "黑色头层皮",
+			"SkuId": 10121543789,
+			"Size": "46"
+		},
+		{
+			"Color": "棕色头层皮",
+			"SkuId": 10121543768,
+			"Size": "46"
+		},
+		{
+			"Color": "黑色",
+			"SkuId": 10121543777,
+			"Size": "46"
+		},
+		{
+			"Color": "黑色头层皮",
+			"SkuId": 10121543790,
+			"Size": "47"
+		},
+		{
+			"Color": "米色",
+			"SkuId": 10121543785,
+			"Size": "48"
+		},
+		{
+			"Color": "棕色头层皮",
+			"SkuId": 10121543770,
+			"Size": "48"
+		},
+		{
+			"Color": "驼色头层皮",
+			"SkuId": 10121543775,
+			"Size": "47"
+		},
+		{
+			"Color": "巧克力色",
+			"SkuId": 10121543771,
+			"Size": "46"
+		},
+		{
+			"Color": "A7-深棕",
+			"SkuId": 10121543782,
+			"Size": "48"
+		},
+		{
+			"Color": "红棕色",
+			"SkuId": 10121543786,
+			"Size": "46"
+		},
+		{
+			"Color": "驼色头层皮",
+			"SkuId": 10121543774,
+			"Size": "46"
+		},
+		{
+			"Color": "黑色头层皮",
+			"SkuId": 10121543791,
+			"Size": "48"
+		},
+		{
+			"Color": "米色",
+			"SkuId": 10121543783,
+			"Size": "46"
+		},
+		{
+			"Color": "巧克力色",
+			"SkuId": 10121543773,
+			"Size": "48"
+		},
+		{
+			"Color": "红棕色",
+			"SkuId": 10121543787,
+			"Size": "47"
+		},
+		{
+			"Color": "米色",
+			"SkuId": 10121543784,
+			"Size": "47"
+		},
+		{
+			"Color": "A7-深棕",
+			"SkuId": 10121543781,
+			"Size": "47"
+		},
+		{
+			"Color": "黑色",
+			"SkuId": 10121543778,
+			"Size": "47"
+		},
+		{
+			"Color": "驼色头层皮",
+			"SkuId": 10121543776,
+			"Size": "48"
+		},
+		{
+			"Color": "黑色",
+			"SkuId": 10121543779,
+			"Size": "48"
+		}],
+		warestatus: 1,
+		tips: [{
+			"order": 3,
+			"tip": "支持7天无理由退货"
+		}],
+		isOtc: false,
+		isBookMvd4Baby: false,
+		desc: '//d.3.cn/desc/1003337829?cdn=2',
+		foot: '//d.3.cn/footer?type=common_config2'
+	}
+}

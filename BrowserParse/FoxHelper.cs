@@ -14,7 +14,7 @@ namespace Hank.BrowserParse
         /// <summary>
         /// 开始监控火狐浏览器
         /// </summary>
-        public List<UrlList> MnitorFireFox()
+        public List<WebSiteModel> MnitorFireFox()
         {
             try
             {
@@ -26,7 +26,7 @@ namespace Hank.BrowserParse
                 // DDE Client 進行連結 
                 dde.Disconnect();
 
-                List<UrlList> urls = new List<UrlList>();
+                List<WebSiteModel> urls = new List<WebSiteModel>();
 
                 // 取得的 sUrlInfo 內容為 "網址","標題",""
                 // 取出網址部分

@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>KillPrice</RootNamespace>
     <AssemblyName>KillPrice</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -21,6 +22,8 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -30,6 +33,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>_ws.ico</ApplicationIcon>
@@ -60,19 +64,26 @@
       <HintPath>..\Libs\AjaxPro.2.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="DevExpress.Charts.v13.2.Core, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Data.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Printing.v13.2.Core, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Sparkline.v13.2.Core, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Utils.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v13.2.UI, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v13.2.Wizard, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraTreeList.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Libs\DevExpress.XtraTreeList.v13.2.dll</HintPath>
     </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraWizard.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="Hank.ComLib">
       <HintPath>..\Libs\Hank.ComLib.dll</HintPath>
@@ -86,8 +97,9 @@
       <HintPath>..\Libs\Interop.NetFwTypeLib.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>.\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -111,6 +123,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChartHelper.cs" />
+    <Compile Include="DevCHS.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="FrmAbout.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -137,11 +153,48 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PubClass.cs" />
+    <Compile Include="UiBadpost.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UiBadpost.Designer.cs">
+      <DependentUpon>UiBadpost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UiFindJDWare.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UiFindJDWare.Designer.cs">
+      <DependentUpon>UiFindJDWare.cs</DependentUpon>
+    </Compile>
     <Compile Include="UiImportWare.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UiImportWare.Designer.cs">
       <DependentUpon>UiImportWare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UiJDWareTypes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UiJDWareTypes.Designer.cs">
+      <DependentUpon>UiJDWareTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UiLines.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UiLines.Designer.cs">
+      <DependentUpon>UiLines.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UiSelectType.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UiSelectType.Designer.cs">
+      <DependentUpon>UiSelectType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UiSysParams.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UiSysParams.Designer.cs">
+      <DependentUpon>UiSysParams.cs</DependentUpon>
     </Compile>
     <Compile Include="UiTypes.cs">
       <SubType>UserControl</SubType>
@@ -172,14 +225,41 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UiBadpost.resx">
+      <DependentUpon>UiBadpost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UiFindJDWare.resx">
+      <DependentUpon>UiFindJDWare.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UiImportWare.resx">
       <DependentUpon>UiImportWare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UiJDWareTypes.resx">
+      <DependentUpon>UiJDWareTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UiLines.resx">
+      <DependentUpon>UiLines.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UiSelectType.resx">
+      <DependentUpon>UiSelectType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UiSysParams.resx">
+      <DependentUpon>UiSysParams.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UiTypes.resx">
       <DependentUpon>UiTypes.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Json\Comments.json" />
+    <None Include="Json\pageConfig.json" />
+    <None Include="Json\pj1.json" />
+    <None Include="Json\pj2.json" />
     <None Include="Json\Price.json" />
+    <None Include="Json\Promotion.json" />
+    <None Include="Json\Promotion1.json" />
+    <None Include="Json\Promotion2.json" />
+    <None Include="Json\summary-service.json" />
+    <None Include="Json\ThirdStock2.json" />
+    <None Include="Json\types.json" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -195,7 +275,9 @@
     <None Include="Json\WareStock.json" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\closed.png" />
@@ -203,6 +285,12 @@
     <None Include="Resources\open.png" />
     <None Include="Resources\page.png" />
     <None Include="Resources\set16.png" />
+    <Content Include="Json\105_Full.txt" />
+    <Content Include="Json\118_Full.txt" />
+    <Content Include="Json\119_Full.txt" />
+    <Content Include="Json\67_Full.txt" />
+    <Content Include="Json\87_Full.txt" />
+    <None Include="Resources\_ws.ico" />
     <Content Include="开发日志.txt" />
     <Content Include="_ws.ico" />
   </ItemGroup>
@@ -218,6 +306,11 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BrowserParse\BrowserParse.csproj">
+      <Project>{3f422f20-17cb-421c-99fb-39992147c49a}</Project>
+      <Name>BrowserParse</Name>
+      <Private>False</Private>
+    </ProjectReference>
     <ProjectReference Include="..\WareService\WareDealer.csproj">
       <Project>{8dbdaa4f-72df-4c6c-98ad-ba268811a274}</Project>
       <Name>WareDealer</Name>

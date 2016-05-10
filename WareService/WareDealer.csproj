@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WareDealer</RootNamespace>
     <AssemblyName>WareDealer</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -20,6 +21,8 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -28,6 +31,27 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\Out\Plugin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AjaxPro.2">
@@ -58,23 +82,37 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Helper\BrowseHelper.cs" />
+    <Compile Include="Helper\DataAccess.cs" />
     <Compile Include="Helper\DBHelper.cs" />
     <Compile Include="Helper\DBSqliteHelper.cs" />
     <Compile Include="Helper\HttpHelper.cs" />
     <Compile Include="Helper\IEHistory.cs" />
     <Compile Include="Helper\JsonHelper.cs" />
-    <Compile Include="Mode\Dic_ProductType.cs" />
+    <Compile Include="Helper\PassWordHelper.cs" />
+    <Compile Include="JDKiller.cs" />
+    <Compile Include="JDListener.cs" />
+    <Compile Include="Mode\BadpostMsg.cs" />
+    <Compile Include="Mode\DispatchArea.cs" />
+    <Compile Include="Mode\JDWareTypes.cs" />
+    <Compile Include="Mode\ProductMessage.cs" />
+    <Compile Include="Mode\ProductType.cs" />
+    <Compile Include="Mode\JDLoginer.cs" />
     <Compile Include="Mode\JDWareMod.cs" />
     <Compile Include="Mode\ProductInfo.cs" />
     <Compile Include="Mode\ProductPriceHistory.cs" />
+    <Compile Include="Mode\PromotionMessage.cs" />
+    <Compile Include="Mode\PubClass.cs" />
+    <Compile Include="Mode\SysParams.cs" />
+    <Compile Include="Mode\TabSysParams.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WareInport.cs" />
+    <Compile Include="WareImport.cs" />
     <Compile Include="WareService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BrowserParse\BrowserParse.csproj">
       <Project>{3f422f20-17cb-421c-99fb-39992147c49a}</Project>
       <Name>BrowserParse</Name>
+      <Private>False</Private>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

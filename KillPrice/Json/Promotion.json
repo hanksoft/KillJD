@@ -1,0 +1,28 @@
+{
+	"quan" : [],
+	"skuCoupon" : [],
+	"adsStatus" : 200,
+	"ads" : [{
+			"id" : "AD_852431",
+			"ad" : "全新升级，赛车造型，实用侧键，精准度高！"
+		}
+	],
+	"quanStatus" : 200,
+	"promStatus" : 200,
+	"prom" : {
+		"hit" : 0,
+		"tags" : [],
+		"pickOneTag" : [{
+				"d" : "1488174733",
+				"st" : "1456811530",
+				"code" : "17",
+				"content" : "满30.00另加19.00元，或满60.00另加49.00元，即可在购物车换购热销商品",
+				"tr" : 28850850,
+				"adurl" : "http://sale.jd.com/act/BPWpeTycvdi.html",
+				"name" : "加价购",
+				"pid" : "187849123_10"
+			}
+		],
+		"ending" : 0
+	}
+}

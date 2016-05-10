@@ -1,12 +1,12 @@
 C:\Work\HankSoft\CutPrice\KillPrice\Out\Hanke\WareDealer.dll
 C:\Work\HankSoft\CutPrice\KillPrice\Out\Hanke\WareDealer.pdb
-C:\Hansy\SRC\Hanke\CutPrice\KillPrice\Out\Plugin\WareDealer.dll
-C:\Hansy\SRC\Hanke\CutPrice\KillPrice\Out\Plugin\WareDealer.pdb
-C:\Hansy\SRC\Hanke\CutPrice\KillPrice\WareService\obj\Debug\WareDealer.csprojResolveAssemblyReference.cache
-C:\Hansy\SRC\Hanke\CutPrice\KillPrice\WareService\obj\Debug\WareDealer.dll
-C:\Hansy\SRC\Hanke\CutPrice\KillPrice\WareService\obj\Debug\WareDealer.pdb
 C:\Work\HankSoft\CutPrice\KillPrice\Out\Plugin\WareDealer.dll
 C:\Work\HankSoft\CutPrice\KillPrice\Out\Plugin\WareDealer.pdb
 C:\Work\HankSoft\CutPrice\KillPrice\WareService\obj\Debug\WareDealer.csprojResolveAssemblyReference.cache
 C:\Work\HankSoft\CutPrice\KillPrice\WareService\obj\Debug\WareDealer.dll
 C:\Work\HankSoft\CutPrice\KillPrice\WareService\obj\Debug\WareDealer.pdb
+C:\Hansy\SRC\Hanke\CutPrice\KillPrice\Out\Plugin\WareDealer.dll
+C:\Hansy\SRC\Hanke\CutPrice\KillPrice\Out\Plugin\WareDealer.pdb
+C:\Hansy\SRC\Hanke\CutPrice\KillPrice\WareService\obj\Debug\WareDealer.csprojResolveAssemblyReference.cache
+C:\Hansy\SRC\Hanke\CutPrice\KillPrice\WareService\obj\Debug\WareDealer.dll
+C:\Hansy\SRC\Hanke\CutPrice\KillPrice\WareService\obj\Debug\WareDealer.pdb

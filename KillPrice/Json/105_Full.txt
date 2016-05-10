@@ -1,0 +1,25 @@
+GET http://cd.jd.com/promotion/v2?callback=jQuery817063&skuId=1579607941&area=1_72_2799_0&shopId=138013&venderId=142424&cat=1318%2C12102%2C9765&_=1459345921060 HTTP/1.1
+Host: cd.jd.com
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+Referer: http://item.jd.com/1579607941.html
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: unpl=V2_ZzNtbUQERRZ3AEVUex8LBWJXGw8RVBERfV9AUH0dXlJgCxYNclRCFXIUR1ZnGloUZgsZWUZcQRZFCHZRS2lcBGYAEl9LVUYlRQtHZHMpWgJgBBJeQVFHJUUPdmQmQQNfIldABCxXcxJwD0NRehhVNWYzE20JOUJYcw9BU3saXwNjMxM%3d; mt_subsite=||72%2C1459043732; __jdv=122270672|click.linktech.cn|t_4_A100213834|tuiguang|7b72392117f14e8cb2c59f75753f695a; user-key=8be30ebb-b926-4a4f-9d4a-4ae5bcf85110; cn=0; _tp=vv1ST5WQrtjyyTeLjjYtUw%3D%3D; unick=%E8%B5%96%E7%9A%AE%E9%B9%8F; _pst=zyhansy; TrackID=1P4PgKqGqTHkXhJjuDtwkPlfMVwe0ZOHtzfURz4BCAI0IPw1XoBnPX6Glv3h7ErzV3-BzGqmAZXI7crdyAVFjFg; pinId=xferU-JtX4A; pin=zyhansy; _jrda=1; _jrdb=1459344356920; _rdCube=%7B%22p481236%22%3A%22%2C2174898%22%2C%22p408958%22%3A%22%2C1579607941%22%7D; __jda=122270672.1457979055.-.1459258612.1459344269.3; __jdb=122270672.15.1457979055|3.1459344269; __jdc=122270672; thor=D03400CFC964DA0AF67B58F844978A73462733B07D0FB7A70F0537E37A5DD97CDA0FE0C808479F6814E2B024AEB53F70D83120B40721EE2C72A31D51C5B942694967C59C48FEE1D4D1EE72B16B392CEE8D2C22726B8688118B3CB910F4792EB86454E35A8A591E4FE9E79289FD77BC484AA5DE32F6388565FA3FFA82155AE8298695C9B2A2800CBFCDB5EBCF3953F91D; __jdu=1457979055; ipLocation=%u5317%u4EAC; areaId=1; ipLoc-djd=1-72-2799-0
+
+
+HTTP/1.1 200 OK
+Server: JengineD/1.7.10.1
+Date: Wed, 30 Mar 2016 13:52:02 GMT
+Content-Type: application/x-javascript
+Transfer-Encoding: chunked
+Connection: close
+Vary: Accept-Encoding
+ser: 13.131
+
+5d6
+jQuery817063({"quan":[],"skuCoupon":[{"couponType":1,"couponKind":2,"batchId":31414394,"beginTime":1459267200000,"userClass":20000,"url":"http://active.coupon.jd.com/ilink/couponSendFront/send_index.action?key=034f2fc1c9c9473f918e5a8525d4b903&roleId=2592815&to=jinsuiyd.jd.com","addDays":0,"area":1,"endTime":1461859140000,"quota":7,"toUrl":"jinsuiyd.jd.com","roleId":2592815,"discount":5,"key":"034f2fc1c9c9473f918e5a8525d4b903","limitType":5,"name":"仅可购买金岁运动专营店商品","timeDesc":"有效期2016-03-30至2016-04-28"},{"couponType":1,"couponKind":2,"batchId":31401247,"beginTime":1459180800000,"userClass":20000,"url":"http://active.coupon.jd.com/ilink/couponSendFront/send_index.action?key=8b1aa86d790e4a08b4cfd67922318d2a&roleId=2584592&to=jinsuiyd.jd.com","addDays":0,"area":1,"endTime":1461859140000,"quota":399,"toUrl":"jinsuiyd.jd.com","roleId":2584592,"discount":50,"key":"8b1aa86d790e4a08b4cfd67922318d2a","limitType":5,"name":"仅可购买金岁运动专营店商品","timeDesc":"有效期2016-03-29至2016-04-28"}],"adsStatus":200,"ads":[{"id":"AD_1579607941","ad":""}],"quanStatus":200,"promStatus":200,"prom":{"hit":"0","ending":0,"tags":[],"jl":"105","vl":"5000","pickOneTag":[{"st":"1457597700","code":"15","content":"满200.00减10.00","d":"1469980740","tr":10634818,"name":"满减","pid":"2395289600_10"},{"d":"1469980740","st":"1457597880","code":"17","content":"满199.00元以折扣价在购物车换购热销商品","tr":10634818,"adurl":"http://jinsuiyd.jd.com/","name":"加价购","pid":"2395313647_10"}]}})
+0
+

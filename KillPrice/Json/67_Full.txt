@@ -1,0 +1,26 @@
+GET http://cd.jd.com/yanbao/v3?skuId=852431&cat=670,686,690&brandId=11821&area=1_72_2799_0&callback=yanbao_jsonp_callback HTTP/1.1
+Accept: application/javascript, */*;q=0.8
+Referer: http://item.jd.com/852431.html
+Accept-Language: zh-CN
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: cd.jd.com
+Pragma: no-cache
+Cookie: __jda=122270672.1579411439.1459323705.1459323705.1459323705.1; __jdb=122270672.2.1579411439|1.1459323705; __jdc=122270672; __jdv=122270672|direct|-|none|-; __jdu=1579411439; ipLocation=%u5317%u4EAC; areaId=1; ipLoc-djd=1-72-2799-0
+
+
+HTTP/1.1 200 OK
+Server: JengineD/1.7.10.1
+Date: Wed, 30 Mar 2016 07:44:43 GMT
+Content-Type: application/x-javascript
+Connection: close
+Vary: Accept-Encoding
+Last-Modified: Wed, 30 Mar 2016 07:44:40 GMT
+Expires: Wed, 30 Mar 2016 07:44:45 GMT
+Cache-Control: max-age=5
+ser: 220.42
+Content-Length: 811
+
+yanbao_jsonp_callback({"852431":[{"imgUrl":"/fuwu/jfs/t2026/333/1859328310/1230/dfaee170/567cb033Nae7c82e8.png","displayNo":2,"details":[{"bindSkuId":2216048,"bindSkuName":"第二年换新","tip":"服务期内出现厂保范围内故障，直接换新","sortIndex":1,"price":29.00,"isFavor":true},{"bindSkuId":2215756,"bindSkuName":"第二年换新","tip":"服务期内出现厂保范围内故障，直接换新","sortIndex":2,"price":39.00,"isFavor":false}],"mainSkuId":852431,"detailUrl":"http://sale.jd.com/act/tAzmQHLxRMbJcP.html"},{"imgUrl":"/fuwu/jfs/t2167/218/2281115189/1119/b6e6fbf5/56c298b9N129e7ec5.png","displayNo":5,"details":[{"bindSkuId":2316700,"bindSkuName":"京东上门换新","tip":"15天内因质量问题，京东为您免费上门换新","sortIndex":1,"price":4.90,"isFavor":false}],"mainSkuId":852431,"detailUrl":"http://sale.jd.com/act/3vn6yrwXg0.html"}]})

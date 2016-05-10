@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // 特性集控制。更改这些特性值可修改
 // 与程序集关联的信息。
 [assembly: AssemblyTitle("KillPrice")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("KillJD.cn")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("京东价格阻击器")]
-[assembly: AssemblyCopyright("Copyright © HankSoft 2015")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCompany("HankSoft")]
+[assembly: AssemblyProduct("京东商品价格监控器")]
+[assembly: AssemblyCopyright("Copyright © HankSoft 2016")]
+[assembly: AssemblyTrademark("杀京东")]
 [assembly: AssemblyCulture("")]
 
 // 将 ComVisible 设置为 false 使此程序集中的类型
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // 可以指定所有这些值，也可以使用“生成号”和“修订号”的默认值，
 // 方法是按如下所示使用“*”:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.4.0.0")]
+[assembly: AssemblyFileVersion("1.4.1.0")]

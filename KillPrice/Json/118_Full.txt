@@ -1,0 +1,23 @@
+GET http://cd.jd.com/promotion/v2?callback=jQuery131495&skuId=852431&area=1_72_2799_0&shopId=1000000248&venderId=1000000248&cat=670%2C686%2C690&_=1459323857124 HTTP/1.1
+Accept: application/javascript, */*;q=0.8
+Referer: http://item.jd.com/852431.html
+Accept-Language: zh-CN
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+DNT: 1
+Host: cd.jd.com
+Pragma: no-cache
+Cookie: __jda=122270672.1579411439.1459323705.1459323705.1459323705.1; __jdb=122270672.2.1579411439|1.1459323705; __jdc=122270672; __jdv=122270672|direct|-|none|-; __jdu=1579411439; ipLocation=%u5317%u4EAC; areaId=1; ipLoc-djd=1-72-2799-0
+
+
+HTTP/1.1 200 OK
+Server: JengineD/1.7.10.1
+Date: Wed, 30 Mar 2016 07:44:43 GMT
+Content-Type: application/x-javascript
+Connection: close
+Vary: Accept-Encoding
+ser: 220.42
+Content-Length: 447
+
+jQuery131495({"quan":[],"skuCoupon":[],"adsStatus":200,"ads":[{"id":"AD_852431","ad":"全新升级，赛车造型，实用侧键，精准度高！"}],"quanStatus":200,"promStatus":200,"prom":{"hit":0,"tags":[],"pickOneTag":[{"d":"1488174733","st":"1456811530","code":"17","content":"满30.00另加19.00元，或满60.00另加49.00元，即可在购物车换购热销商品","tr":28850850,"adurl":"http://sale.jd.com/act/BPWpeTycvdi.html","name":"加价购","pid":"187849123_10"}],"ending":0}})

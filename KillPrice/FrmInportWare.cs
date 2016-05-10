@@ -44,7 +44,7 @@ namespace KillPrice
             }
             InitProcess();
             string fileName = btnOpenFile.Text;
-            Thread exportThread = new Thread(delegate() { WareInport.GetInstance().InportWareList(fileName); }) { Name = "exportThread", IsBackground = true };
+            Thread exportThread = new Thread(delegate() { WareImport.GetInstance().ImportWareList(fileName); }) { Name = "exportThread", IsBackground = true };
             exportThread.Start();
 
             _isInport = true;
@@ -67,16 +67,16 @@ namespace KillPrice
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (InportThreads.WareLength > 1 && !_isProcessing)
+            if (ImportThreads.WareLength > 1 && !_isProcessing)
             {
-                progressBarControl1.Properties.Maximum = InportThreads.WareLength * 2;
+                progressBarControl1.Properties.Maximum = ImportThreads.WareLength * 2;
                 progressBarControl1.Position = 0;
                 _isProcessing = true;
             }
 
             if (_isProcessing)
             {
-                if (InportThreads.WareStep < progressBarControl1.Properties.Maximum)
+                if (ImportThreads.WareStep < progressBarControl1.Properties.Maximum)
                 {
                     //处理当前消息队列中的所有windows消息
                     Application.DoEvents();
@@ -87,8 +87,8 @@ namespace KillPrice
                 
             }
 
-            _isInport = !InportThreads.WareEnd;
-            timer1.Enabled = !InportThreads.WareEnd;
+            _isInport = !ImportThreads.WareEnd;
+            timer1.Enabled = !ImportThreads.WareEnd;
         }
 
         private void FrmInportWare_FormClosing(object sender, FormClosingEventArgs e)
@@ -107,7 +107,7 @@ namespace KillPrice
 
         private void FrmInportWare_Load(object sender, EventArgs e)
         {
-            InportThreads.WareEnd = false;
+            ImportThreads.WareEnd = false;
         }
     }
 }

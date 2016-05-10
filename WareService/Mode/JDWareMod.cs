@@ -27,6 +27,10 @@ namespace WareDealer.Mode
         /// 原始价格
         /// </summary>
         public string m { get; set; }
+        /// <summary>
+        /// 价格来源
+        /// </summary>
+        public string src { get; set; }
     }
 
     /// <summary>
@@ -48,9 +52,10 @@ namespace WareDealer.Mode
     }
     public class Stock
     {
+        public string serviceInfo { get; set; }
         public string Ext { get; set; }
         public int StockState { get; set; }
-        public int realSkuId { get; set; }
+        public long realSkuId { get; set; }
         public int code { get; set; }
         public int skuState { get; set; }
         public int PopType { get; set; }

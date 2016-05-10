@@ -1,0 +1,75 @@
+{
+	"quan" : [],
+	"skuCoupon" : [{
+			"couponType" : 1,
+			"couponKind" : 2,
+			"batchId" : 31414394,
+			"beginTime" : 1459267200000,
+			"userClass" : 20000,
+			"url" : "http://active.coupon.jd.com/ilink/couponSendFront/send_index.action?key=034f2fc1c9c9473f918e5a8525d4b903&roleId=2592815&to=jinsuiyd.jd.com",
+			"addDays" : 0,
+			"area" : 1,
+			"endTime" : 1461859140000,
+			"quota" : 7,
+			"toUrl" : "jinsuiyd.jd.com",
+			"roleId" : 2592815,
+			"discount" : 5,
+			"key" : "034f2fc1c9c9473f918e5a8525d4b903",
+			"limitType" : 5,
+			"name" : "仅可购买金岁运动专营店商品",
+			"timeDesc" : "有效期2016-03-30至2016-04-28"
+		}, {
+			"couponType" : 1,
+			"couponKind" : 2,
+			"batchId" : 31401247,
+			"beginTime" : 1459180800000,
+			"userClass" : 20000,
+			"url" : "http://active.coupon.jd.com/ilink/couponSendFront/send_index.action?key=8b1aa86d790e4a08b4cfd67922318d2a&roleId=2584592&to=jinsuiyd.jd.com",
+			"addDays" : 0,
+			"area" : 1,
+			"endTime" : 1461859140000,
+			"quota" : 399,
+			"toUrl" : "jinsuiyd.jd.com",
+			"roleId" : 2584592,
+			"discount" : 50,
+			"key" : "8b1aa86d790e4a08b4cfd67922318d2a",
+			"limitType" : 5,
+			"name" : "仅可购买金岁运动专营店商品",
+			"timeDesc" : "有效期2016-03-29至2016-04-28"
+		}
+	],
+	"adsStatus" : 200,
+	"ads" : [{
+			"id" : "AD_1579607941",
+			"ad" : ""
+		}
+	],
+	"quanStatus" : 200,
+	"promStatus" : 200,
+	"prom" : {
+		"hit" : "0",
+		"ending" : 0,
+		"tags" : [],
+		"jl" : "105",
+		"vl" : "5000",
+		"pickOneTag" : [{
+				"st" : "1457597700",
+				"code" : "15",
+				"content" : "满200.00减10.00",
+				"d" : "1469980740",
+				"tr" : 10634818,
+				"name" : "满减",
+				"pid" : "2395289600_10"
+			}, {
+				"d" : "1469980740",
+				"st" : "1457597880",
+				"code" : "17",
+				"content" : "满199.00元以折扣价在购物车换购热销商品",
+				"tr" : 10634818,
+				"adurl" : "http://jinsuiyd.jd.com/",
+				"name" : "加价购",
+				"pid" : "2395313647_10"
+			}
+		]
+	}
+}

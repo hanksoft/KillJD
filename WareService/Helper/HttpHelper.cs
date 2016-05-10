@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Net;
 using System.IO;
-using System.Web;
 using System.Text.RegularExpressions;
+using Hank.ComLib;
 
 namespace WareDealer.Helper
 {
@@ -16,6 +14,16 @@ namespace WareDealer.Helper
         public static string FireFoxAgent = "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.23) Gecko/20110920 Firefox/3.6.23";
         public static string IE7 = "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; InfoPath.2; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET4.0C; .NET4.0E)";
 
+        public static string GetResponseGBK(string url, string method, string data)
+        {
+            return GetResponse(url, method, data, Encoding.GetEncoding("gb2312"));
+        }
+
+        public static string GetResponseUTF(string url, string method, string data)
+        {
+            return GetResponse(url, method, data, Encoding.GetEncoding("UTF-8"));
+        }
+
         /// <summary>
         /// 获取网页数据
         /// </summary>
@@ -23,7 +31,7 @@ namespace WareDealer.Helper
         /// <param name="method">"POST" or "GET"</param>
         /// <param name="data">when the method is "POST", the data will send to web server, if the method is "GET", the data should be string.empty</param>
         /// <returns></returns>
-        public static string GetResponse(string url, string method, string data)
+        public static string GetResponse(string url, string method, string data, Encoding encode)
         {
             try
             {
@@ -53,18 +61,16 @@ namespace WareDealer.Helper
                     return true;
                 };
 
-                //Encoding myEncoding = Encoding.GetEncoding("UTF-8");
-                Encoding myEncoding = Encoding.GetEncoding("gb2312");
-
                 HttpWebResponse res = (HttpWebResponse)req.GetResponse();
                 Stream resst = res.GetResponseStream();
-                StreamReader sr = new StreamReader(resst, myEncoding);
+                StreamReader sr = new StreamReader(resst, encode);
                 string str = sr.ReadToEnd();
 
                 return str;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                OtCom.XLogErr(ex.Message);
                 return string.Empty;
             }
         }

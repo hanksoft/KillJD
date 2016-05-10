@@ -4,8 +4,9 @@ using System.Text;
 using AjaxPro;
 using System.IO;
 using System.ComponentModel;
+using System.Diagnostics;
 
-namespace WareDealer
+namespace WareDealer.Helper
 {
     /// <summary>
     /// JSON÷˙ ÷
@@ -385,6 +386,7 @@ namespace WareDealer
             }
             catch (Exception ex)
             {
+                Debug.WriteLine(ex.Message);
                 return null;
             }
         }

@@ -15,15 +15,15 @@ namespace Hank.BrowserParse
         /// 获取IE全部网址
         /// </summary>
         /// <returns></returns>
-        public List<UrlList> MonitorIE()
+        public List<WebSiteModel> MonitorIE()
         {
             try
             {
                 ShellWindowsClass shellWindows = new ShellWindowsClass();
-                List<UrlList> ieUrls = new List<UrlList>();
+                List<WebSiteModel> ieUrls = new List<WebSiteModel>();
                 foreach (InternetExplorer ie in shellWindows)
                 {
-                    ieUrls.Add(new UrlList() { url = ie.LocationURL, title = ie.LocationName });
+                    ieUrls.Add(new WebSiteModel() { url = ie.LocationURL, title = ie.LocationName });
                 }
                 return ieUrls;
             }
@@ -33,12 +33,4 @@ namespace Hank.BrowserParse
             }
         }
     }
-
-    public class UrlList
-    {
-        public string url { set; get; }
-
-        public string title { get; set; }
-    }
-
 }

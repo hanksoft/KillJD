@@ -18,7 +18,7 @@ namespace WareDealer.Mode
         /// </summary>
         public string ProductID { get; set; }
         /// <summary>
-        /// 供应商编号
+        /// 供货商/商贩编号
         /// </summary>
         public string VenderId { get; set; }
         /// <summary>
@@ -28,11 +28,20 @@ namespace WareDealer.Mode
         /// <summary>
         /// 商品编号（取值与产品编号相同）
         /// </summary>
-        public string SkuId { get; set; }
+        public string SkuID { get; set; }
         /// <summary>
-        /// 配送区域
+        /// 商品编号Key
         /// </summary>
-        public string CatArea { get; set; }
+        public string SkuidKey { get; set; }
+        /// <summary>
+        /// 页面配置数据
+        /// </summary>
+        public string PageConfig { get; set; }
+        /// <summary>
+        /// 京东商品分类编号 产品目录
+        /// </summary>
+        /// <remarks>cat: [11729,11730,6908]</remarks>
+        public string Catalog { get; set; }
         /// <summary>
         /// 商品名称
         /// </summary>
@@ -45,6 +54,14 @@ namespace WareDealer.Mode
         /// 手机专享价
         /// </summary>
         public double ProductMobilePrice { get; set; }
+        /// <summary>
+        /// QQ端价格
+        /// </summary>
+        public double ProductQQPrice { get; set; }
+        /// <summary>
+        /// 微信端价格
+        /// </summary>
+        public double ProductWXPrice { get; set; }
         /// <summary>
         /// 商品底价 记录历史最低价格
         /// </summary>
@@ -84,6 +101,10 @@ namespace WareDealer.Mode
         /// </summary>
         public string ProductTag { get; set; }
         /// <summary>
+        /// 品牌编号
+        /// </summary>
+        public string BrandID { get; set; }
+        /// <summary>
         /// 商品品牌
         /// </summary>
         public string ProductBrand { get; set; }
@@ -100,9 +121,25 @@ namespace WareDealer.Mode
         /// </summary>
         public double ProductGoodRate { get; set; }
         /// <summary>
-        /// 差评信息
+        /// 中评率
         /// </summary>
-        public string ProductPoorInfo { get; set; }
+        public double ProductGeneralRate { get; set; }
+        /// <summary>
+        /// 差评率
+        /// </summary>
+        public double ProductPoorRate { get; set; }
+        /// <summary>
+        /// 买家印象
+        /// </summary>
+        public string ProductHotCommentTag { get; set; }
+        /// <summary>
+        /// 优惠券信息
+        /// </summary>
+        public string ProductCoupon { get; set; }
+        /// <summary>
+        /// 促销信息
+        /// </summary>
+        public string ProductPromoMsg { get; set; }
         /// <summary>
         /// 商品图片路径
         /// </summary>
@@ -120,17 +157,25 @@ namespace WareDealer.Mode
         /// </summary>
         public string ProductURL { get; set; }
         /// <summary>
-        /// 商品详细信息
+        /// 商品详细信息 不入库，用于显示
         /// </summary>
         public string ProductDetail { get; set; }
         /// <summary>
-        /// 商品归属
+        /// 商品归属 商品卖场（如自营、旗舰店、第三方）
         /// </summary>
         public string ProductAttach { get; set; }
         /// <summary>
-        /// 商品原生数据（页面原始Html数据）
+        /// 商品原生数据（页面原始Html数据） 不入库，用于显示
         /// </summary>
         public string NativeData { get; set; }
+        /// <summary>
+        /// 可用性
+        /// </summary>
+        public Boolean BEnable { get; set; }
+        /// <summary>
+        /// 重点关注
+        /// </summary>
+        public Boolean Focus { set; get; }
         /// <summary>
         /// 创建时间
         /// </summary>
@@ -139,9 +184,6 @@ namespace WareDealer.Mode
         /// 创建者
         /// </summary>
         public string CreateUser { get; set; }
-        /// <summary>
-        /// 可用性
-        /// </summary>
-        public Boolean BEnable { get; set; }
+        
     }
 }

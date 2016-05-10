@@ -1,0 +1,88 @@
+{
+	"stock": {
+		"StockState": 33,
+		"self_D": {
+			"vender": "罗技官方旗舰店",
+			"id": 1000000248,
+			"df": null,
+			"po": "false",
+			"deliver": "罗技官方旗舰店",
+			"cg": "670:686:690",
+			"url": "http://logitech.jd.com",
+			"vid": 1000000248,
+			"type": 0,
+			"linkphone": ""
+		},
+		"serviceInfo": "由 京东 发货并提供售后服务。",
+		"IsPurchase": true,
+		"ArrivalDate": "",
+		"channel": 1,
+		"PopType": 0,
+		"vd": null,
+		"Dti": null,
+		"rn": -1,
+		"ir": [{
+			"helpLink": "http://help.jd.com/user/issue/103-983.html",
+			"showName": "夜间配",
+			"iconType": 0,
+			"resultCode": 1,
+			"iconTip": "支持晚上19:00-22:00送货",
+			"iconSrc": "夜间配",
+			"picUrl": "http://static.360buyimg.com/item/assets/picon/yueliang.png",
+			"iconCode": "sendpay_311"
+		},
+		{
+			"helpLink": "http://help.jd.com/user/issue/103-983.html",
+			"showName": "自提",
+			"iconType": 0,
+			"resultCode": 1,
+			"iconTip": "支持自提点，自助提货柜，移动自提车等自提服务。",
+			"iconSrc": "自提",
+			"picUrl": "http://static.360buyimg.com/item/assets/picon/shoutixiang.png",
+			"iconCode": "special_ziti"
+		}],
+		"code": 1,
+		"afsCode": 0,
+		"StockStateName": "现货",
+		"dcashDesc": "",
+		"Dc": null,
+		"stockDesc": "<strong>有货</strong>",
+		"pr": {
+			"promiseResult": "23:00前完成下单,预计<b>明天(03月31日)</b>送达",
+			"resultCode": 1
+		},
+		"rfg": 0,
+		"skuState": 1,
+		"Ext": "EleGift:0,isOverseaPurchase:0,storeProperty:0,nationallySetWare:0,is7ToReturn:1,isPickingGoods:0",
+		"realSkuId": 852431,
+		"promiseResult": "23:00前完成下单,预计<b>明天(03月31日)</b>送达",
+		"eir": [{
+			"helpLink": "http://help.jd.com/user/issue/103-983.html",
+			"showName": "79免运费",
+			"iconType": 0,
+			"resultCode": 1,
+			"iconTip": "钻石会员自营订单满59元（含）免运费， 其他会员自营订单满79元（含）免运费， 不足金额订单收取5元/单运费。",
+			"iconSrc": "79免运费",
+			"picUrl": "http://static.360buyimg.com/item/assets/picon/mianyunfei.png",
+			"iconCode": "free_delivery"
+		},
+		{
+			"helpLink": "http://help.jd.com/user/issue/103-983.html",
+			"showName": "货到付款",
+			"iconType": 0,
+			"resultCode": 1,
+			"iconTip": "支持送货上门后再收款，支持现金、POS机刷卡等方式",
+			"iconSrc": "货到付款",
+			"picUrl": "http://static.360buyimg.com/item/assets/picon/fangzi.png",
+			"iconCode": "payment_cod"
+		}],
+		"area": {
+			"countyName": "三环以内",
+			"success": true,
+			"townName": "",
+			"cityName": "朝阳区",
+			"provinceName": "北京"
+		}
+	},
+	"choseSuit": []
+}
